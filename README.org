@@ -1,0 +1,16 @@
+#+TITLE: Infer Real Time
+
+* TL;DR
+
+InferRealTIme is a flycheck plugin that allows you to view results from FBInfer as you type!
+
+* Installation
+** Dependencies
+   - [[http://www.flycheck.org/en/latest/index.html] [FlyCheck]]
+   - [[https://fbinfer.com/docs/getting-started.html] [FBInfer]]
+** Installation
+*** Emacs
+    Add the following to your ~.emacs~: ~(load "path/to/inferrealtime.el")~
+*** Spacemacs
+    Add the followign to your ~dotspacemacs/user-config~: ~(load "path/to/inferrealtime.el")~
+    
